@@ -19,6 +19,8 @@
 
 use crate::error;
 
+compile error
+
 /// A secure random number generator.
 pub trait SecureRandom: sealed::SecureRandom {
     /// Fills `dest` with random bytes.
